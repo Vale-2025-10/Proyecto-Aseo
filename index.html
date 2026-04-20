@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestión de Aseo</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Gestión de Aseo del Salón</h1>
+</header>
+
+<main>
+
+<!-- INTEGRANTES -->
+<section class="card">
+    <h2>Integrantes</h2>
+    <ul id="lista"></ul>
+</section>
+
+<!-- ASIGNACIÓN -->
+<section class="card">
+    <h2>Asignación Semanal</h2>
+    <div class="dias" id="dias"></div>
+</section>
+
+<!-- BOTONES -->
+<section class="card">
+    <button onclick="generarAsignacion()">Generar Asignación</button>
+    <button onclick="limpiarDatos()">Reiniciar</button>
+</section>
+
+</main>
+
+<script src="js/storage.js"></script>
+<script src="js/asignacion.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

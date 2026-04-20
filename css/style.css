@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* LISTA */
+li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+/* DIAS */
+.dias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 10px;
+}
+
+.dia {
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+/* COLORES */
+.lunes { background: #3498db; }
+.martes { background: #2ecc71; }
+.miercoles { background: #9b59b6; }
+.jueves { background: #7f8c8d; }
+.viernes { background: #f1c40f; color: black; }
+
+/* BOTONES */
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+    h1 { font-size: 20px; }
+}
